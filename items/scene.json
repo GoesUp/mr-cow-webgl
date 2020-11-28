@@ -882,15 +882,15 @@
     }
   ],
   "textures": [
-    "../../common/images/crate-diffuse.png",
-    "../../common/images/grass.png",
+    "./common/images/crate-diffuse.png",
+    "./common/images/grass.png",
     "./common/models/wood_beams01-m-color.jpg",
-    "../../common/images/fur.png",
-    "../../common/images/white.png",
-    "../../common/images/red.png",
-    "../../common/images/hay.png",
-    "../../common/images/cow.jpg",
-    "../../common/images/sky.png"
+    "./common/images/fur.png",
+    "./common/images/white.png",
+    "./common/images/red.png",
+    "./common/images/hay.png",
+    "./common/images/cow.jpg",
+    "./common/images/sky.png"
   ],
   "meshes": [
     "./common/models/cube.json",
