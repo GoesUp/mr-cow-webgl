@@ -1,0 +1,907 @@
+{
+  "nodes": [
+    {
+      "type": "camera",
+      "translation": [-3, 2.2, 0],
+      "rotation": [-0.2, 0, 0],
+      "aabb": {
+        "min": [-0.4, -0.4, -0.4],
+        "max": [0.4, 0.4, 0.4]
+      },
+      "aspect": 1,
+      "fov": 1,
+      "near": 0.01,
+      "far": 100
+    },
+    {
+      "type": "model",
+      "name": "floor",
+      "mesh": 4,
+      "texture": 1,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [0, -1, 0],
+      "scale": [0.4, 0.4, 0.4]
+    },
+    {
+      "type": "model",
+      "name": "skybox",
+      "mesh": 0,
+      "texture": 8,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [-1, 0, -15],
+      "scale": [-30, -30, -30]
+    },
+    {
+      "type": "model",
+      "name": "ns_entry",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [-1, 0, -5],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "ns_entry",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [-1, 0, -5],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_entry",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [-2.7, 0, -6.6],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_entry",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [-6.1, 0, -6.3],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_entry",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [-6.1, 0, -3],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "ns_corr",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [-7.8, 0, -1.3],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_corr",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [-9.6, 0, 0.6],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "ns_corr_l",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [-11.2, 0, -1.1],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "ns_corr_l",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [-11.2, 0, -4.3],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "ns_corr_l",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [-11.2, 0, -7.5],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "ns_corr_l",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [-11.2, 0, -10.7],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "ns_corr_l",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [-11.2, 0, -13.9],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "ns_corr_l",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [-11.2, 0, -17.1],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "ns_corr_l",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [-11.2, 0, -20.3],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "ns_corr_l",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [-11.2, 0, -23.5],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "ns_corr_l",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [-11.2, 0, -26.7],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "ns_corr_r",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [-7.8, 0, -8],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "ns_corr_r",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [-7.8, 0, -14.4],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "ns_corr_r",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [-7.8, 0, -20.8],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "ns_corr_r",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [-7.8, 0, -24],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "ns_corr_r",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [-7.8, 0, -27.2],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_corr_top",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [-9.6, 0, -28.6],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_goal",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [-6.1, 0, -9.8],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_goal",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [-6.1, 0, -12.8],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_goal",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [-2.8, 0, -10.1],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_goal",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [-2.8, 0, -13.1],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_goal",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [0.4, 0, -10.4],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_goal",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [0.4, 0, -13.4],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "ns_goal",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [2.1, 0, -12.15],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "wolf",
+      "name": "wolf1",
+      "mesh": 3,
+      "texture": 3,
+      "aabb": {
+        "min": [-0.7, -5, -1.9],
+        "max": [0.7, 5, 1.9]
+      },
+      "translation": [-9.6, 0, -1.5],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "wolf2",
+      "name": "wolf2",
+      "mesh": 3,
+      "texture": 3,
+      "aabb": {
+        "min": [-0.5, -0.5, -0.5],
+        "max": [0.5, 0.5, 0.5]
+      },
+      "translation": [0.2, 0, -18.6],
+      "rotation": [0, 0.2, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_path1",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [-6.1, 0, -16.3],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_path1",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [-2.9, 0, -16.6],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_path1",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [0.4, 0, -16.9],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_path1",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [3.6, 0, -17.2],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_path1",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [6.8, 0, -17.5],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_path1",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [-6.1, 0, -19.4],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_path1",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [-2.9, 0, -19.7],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_path1",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [3.6, 0, -20.3],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_path1",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [10, 0, -17.8],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "ns_path1end",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [11.7, 0, -19.7],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "ns_path1end",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [11.7, 0, -23],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "ns_path1end",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [8.45, 0, -22.55],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "ns_path1end",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [5.3, 0, -22.1],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_path1end",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [10, 0, -24.35],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "ns_path1box",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [2.05, 0, -21.95],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "ns_path1box",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [-1.15, 0, -21.6],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_path1_box",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [0.4, 0, -23.3],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_top_path",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [3.6, 0, -23.5],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_top_path",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [-2.8, 0, -23.1],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_top_path",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [3.75, 0, -27.13],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_top_path",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [-2.8, 0, -26.55],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_top_path",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [0.5, 0, -26.85],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "ns_top_path",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [-4.35, 0, -24.7],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "we_top_path",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-2, -2, -0.2],
+        "max": [2, 2, 0.2]
+      },
+      "translation": [7.1, 0, -27.4],
+      "rotation": [0, 1.66, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "ns_top_path",
+      "mesh": 2,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -5, -1.9],
+        "max": [0.2, 5, 1.9]
+      },
+      "translation": [8.85, 0, -25.9],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "button1",
+      "mesh": 5,
+      "texture": 4,
+      "aabb": {
+        "min": [-0.2, -2, -1.9],
+        "max": [0.2, 2, 1.9]
+      },
+      "translation": [-2.6, 0, -24.75],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "button1",
+      "mesh": 6,
+      "texture": 5,
+      "aabb": {
+        "min": [-0.2, -2, -1.9],
+        "max": [0.2, 2, 1.9]
+      },
+      "translation": [-2.6, 0, -24.75],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "button2",
+      "mesh": 5,
+      "texture": 4,
+      "aabb": {
+        "min": [-0.2, -2, -0.7],
+        "max": [0.2, 2, 0.7]
+      },
+      "translation": [10, 0, -23],
+      "rotation": [0, -1.6, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "button2",
+      "mesh": 6,
+      "texture": 5,
+      "aabb": {
+        "min": [-0.2, -2, -0.7],
+        "max": [0.2, 2, 0.7]
+      },
+      "translation": [10, 0, -23],
+      "rotation": [0, -1.6, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "button3",
+      "mesh": 5,
+      "texture": 4,
+      "aabb": {
+        "min": [-0.2, -2, -0.7],
+        "max": [0.2, 2, 0.7]
+      },
+      "translation": [0.3, 0, -22.2],
+      "rotation": [0, -1.6, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "button3",
+      "mesh": 6,
+      "texture": 5,
+      "aabb": {
+        "min": [-0.2, -2, -0.7],
+        "max": [0.2, 2, 0.7]
+      },
+      "translation": [0.3, 0, -22.2],
+      "rotation": [0, -1.6, 0],
+      "scale": [0.33, 0.33, 0.33]
+    },
+    {
+      "type": "model",
+      "name": "hay",
+      "mesh": 7,
+      "texture": 6,
+      "aabb": {
+        "min": [-1, -2, -0.7],
+        "max": [1, 2, 0.7]
+      },
+      "translation": [0.3, -1, -12],
+      "rotation": [0, -0, 0],
+      "scale": [0.66, 0.66, 0.66]
+    },
+    {
+      "type": "spike",
+      "name": "spike1",
+      "mesh": 8,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -3, -1],
+        "max": [0.2, 3, 1]
+      },
+      "translation": [-6, -0.6, -11.2],
+      "rotation": [0, 0, 0],
+      "scale": [0.11, 0.11, 0.11]
+    },
+    {
+      "type": "spike",
+      "name": "spike2",
+      "mesh": 8,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -3, -1],
+        "max": [0.2, 3, 1]
+      },
+      "translation": [-5.5, -0.6, -11.25],
+      "rotation": [0, 0, 0],
+      "scale": [0.11, 0.11, 0.11]
+    },
+    {
+      "type": "spike",
+      "name": "spike3",
+      "mesh": 8,
+      "texture": 2,
+      "aabb": {
+        "min": [-0.2, -3, -1],
+        "max": [0.2, 3, 1]
+      },
+      "translation": [-5, -0.6, -11.1],
+      "rotation": [0, 0, 0],
+      "scale": [0.11, 0.11, 0.11]
+    },
+    {
+      "type": "cow",
+      "name": "cow",
+      "mesh": 9,
+      "texture": 7,
+      "aabb": {
+        "min": [50,50,50],
+        "max": [50,50,50]
+      },
+      "translation": [0,-1.3,-0.5],
+      "rotation": [0, -1.66, 0],
+      "scale": [0.2, 0.2, 0.2]
+    }
+  ],
+  "textures": [
+    "../../common/images/crate-diffuse.png",
+    "../../common/images/grass.png",
+    "./common/models/wood_beams01-m-color.jpg",
+    "../../common/images/fur.png",
+    "../../common/images/white.png",
+    "../../common/images/red.png",
+    "../../common/images/hay.png",
+    "../../common/images/cow.jpg",
+    "../../common/images/sky.png"
+  ],
+  "meshes": [
+    "./common/models/cube.json",
+    "./common/models/pyramid.json",
+    "./items/fence.json",
+    "./items/wolf.json",
+    "./items/floor.json",
+    "./items/button_bottom.json",
+    "./items/button_top.json",
+    "./items/bala.json",
+    "./items/spikes.json",
+    "./items/cow.json"
+  ]
+}
